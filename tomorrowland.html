@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomorrowland Brasil</title>
+    <!-- Cargamos Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen font-sans p-4">
+
+    <!-- Contenedor Principal Centrado -->
+    <div class="max-w-4xl mx-auto py-10">
+
+        <!-- Encabezado y Título -->
+        <header class="text-center mb-12 border-b-4 border-yellow-400 pb-4">
+            <h1 class="text-5xl font-extrabold tracking-tight text-yellow-400">
+                Tomorrowland Brasil
+            </h1>
+            <p class="text-xl text-gray-300 mt-2">Vive el Reino de la Unidad</p>
+        </header>
+
+        <!-- Sección Principal de Contenido -->
+        <section class="mb-12 bg-gray-800 p-8 rounded-2xl shadow-xl">
+            <h2 class="text-3xl font-bold mb-4 text-blue-400">El Retorno Mágico a Itu, São Paulo</h2>
+            
+            <p class="mb-4 leading-relaxed">
+                Tomorrowland Brasil es la edición sudamericana de uno de los festivales de música electrónica más grandes y aclamados del mundo. Celebrado en el Parque Maeda, en Itu, São Paulo, el evento transforma el paisaje brasileño en el mítico Reino de la Unidad, ofreciendo una experiencia inmersiva que combina escenarios espectaculares, pirotecnia impresionante y los mejores DJs del planeta.
+            </p>
+            
+            <p class="leading-relaxed">
+                Desde su regreso triunfal, el festival ha reafirmado su compromiso con la fantasía, la calidad sonora y la creación de un ambiente de cuento de hadas. Es un punto de encuentro para personas de todo el mundo que comparten el amor por la música, la amistad y la celebración de la vida. Las entradas suelen agotarse rápidamente, demostrando la enorme demanda por experimentar este mágico festival en suelo brasileño.
+            </p>
+        </section>
+
+        <!-- Sección de Imágenes (6 Imágenes) -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-6 text-yellow-400">Momentos Inolvidables</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Imagen 1: Escenario Principal -->
+                <div class="moment-card rounded-xl overflow-hidden shadow-lg transition duration-300 cursor-pointer hover:shadow-yellow-400/50" data-moment="main-stage">
+                    <img 
+                        src="https://placehold.co/600x400/1e3a8a/ffffff?text=Main+Stage" 
+                        alt="Escenario principal de Tomorrowland Brasil con temática floral y fantasía." 
+                        class="w-full h-auto object-cover"
+                        onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=Main+Stage+Error';">
+                    <p class="p-3 text-sm text-center bg-gray-700 font-medium">1. El impresionante Main Stage.</p>
+                </div>
+
+                <!-- Imagen 2: Ambiente y Multitud -->
+                <div class="moment-card rounded-xl overflow-hidden shadow-lg transition duration-300 cursor-pointer hover:shadow-yellow-400/50" data-moment="atmosphere">
+                    <img 
+                        src="https://placehold.co/300x200/5b21b6/ffffff?text=Atmosphere" 
+                        alt="Vista de la multitud de personas disfrutando del festival en la noche." 
+                        class="w-full h-auto object-cover"
+                        onerror="this.onerror=null; this.src='https://placehold.co/300x200/5b21b6/ffffff?text=Atmosphere';">
+                    <p class="p-3 text-sm text-center bg-gray-700 font-medium">2. La atmósfera vibrante.</p>
+                </div>
+
+                <!-- Imagen 3: Detalle de la Entrada/Decoración -->
+                <div class="moment-card rounded-xl overflow-hidden shadow-lg transition duration-300 cursor-pointer hover:shadow-yellow-400/50" data-moment="entrance">
+                    <img 
+                        src="https://placehold.co/300x200/9d174d/ffffff?text=Entrance" 
+                        alt="Un detalle de la decoración fantástica o el signo de entrada de Tomorrowland Brasil." 
+                        class="w-full h-auto object-cover"
+                        onerror="this.onerror=null; this.src='https://placehold.co/300x200/9d174d/ffffff?text=Entrance';">
+                    <p class="p-3 text-sm text-center bg-gray-700 font-medium">3. Detalles mágicos de la entrada.</p>
+                </div>
+
+                <!-- Imagen 4: Pirotecnia/Show de Luces -->
+                <div class="moment-card rounded-xl overflow-hidden shadow-lg transition duration-300 cursor-pointer hover:shadow-yellow-400/50" data-moment="fireworks">
+                    <img 
+                        src="https://placehold.co/600x400/059669/ffffff?text=Fireworks" 
+                        alt="Espectáculo de fuegos artificiales y luces sobre el escenario." 
+                        class="w-full h-auto object-cover"
+                        onerror="this.onerror=null; this.src='https://placehold.co/600x400/059669/ffffff?text=Fireworks';">
+                    <p class="p-3 text-sm text-center bg-gray-700 font-medium">4. El increíble show de pirotecnia.</p>
+                </div>
+
+                <!-- Imagen 5: Gente/Unidad -->
+                <div class="moment-card rounded-xl overflow-hidden shadow-lg transition duration-300 cursor-pointer hover:shadow-yellow-400/50" data-moment="people-of-tomorrow">
+                    <img 
+                        src="https://placehold.co/300x200/0d9488/ffffff?text=People+of+Tomorrow" 
+                        alt="Personas reunidas y celebrando en el festival." 
+                        class="w-full h-auto object-cover"
+                        onerror="this.onerror=null; this.src='https://placehold.co/300x200/0d9488/ffffff?text=People+of+Tomorrow';">
+                    <p class="p-3 text-sm text-center bg-gray-700 font-medium">5. La gente de Tomorrow.</p>
+                </div>
+
+                <!-- Imagen 6: Escenario Secundario -->
+                <div class="moment-card rounded-xl overflow-hidden shadow-lg transition duration-300 cursor-pointer hover:shadow-yellow-400/50" data-moment="secondary-stage">
+                    <img 
+                        src="https://placehold.co/300x200/9333ea/ffffff?text=Secondary+Stage" 
+                        alt="Un escenario secundario con decoración fantástica, como el Tulip Stage." 
+                        class="w-full h-auto object-cover"
+                        onerror="this.onerror=null; this.src='https://placehold.co/300x200/9333ea/ffffff?text=Secondary+Stage';">
+                    <p class="p-3 text-sm text-center bg-gray-700 font-medium">6. Escenarios temáticos.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Pie de página -->
+        <footer class="text-center pt-8 border-t border-gray-700 mt-10">
+            <p class="text-sm text-gray-400">Creado por un fanático de la música. Descubre la magia, vive la leyenda.</p>
+        </footer>
+        
+    </div>
+
+    <!-- MODAL (Ventana Emergente) -->
+    <div id="modalOverlay" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 transition-opacity duration-300 opacity-0 pointer-events-none">
+        <div id="modalContent" class="bg-gray-800 p-8 m-4 max-w-lg w-full rounded-2xl shadow-2xl transform scale-95 transition-transform duration-300">
+            
+            <!-- Encabezado del Modal -->
+            <div class="flex justify-between items-center border-b border-gray-700 pb-3 mb-4">
+                <h3 id="modalTitle" class="text-2xl font-bold text-yellow-400">Título del Momento</h3>
+                <button id="modalClose" class="text-gray-400 hover:text-white transition-colors text-3xl leading-none">
+                    &times; <!-- Símbolo de "X" -->
+                </button>
+            </div>
+
+            <!-- Contenido del Modal -->
+            <p id="modalDescription" class="text-gray-300 leading-relaxed">
+                Aquí estará la descripción del momento inolvidable seleccionado.
+            </p>
+
+            <button id="modalCloseButton" class="mt-6 w-full py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-semibold transition duration-200">
+                Cerrar
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Objeto que contiene la información detallada para cada momento
+        const momentData = {
+            'main-stage': {
+                title: "El Corazón de la Unidad",
+                description: "El escenario principal es el centro del festival, un espectáculo de diseño y tecnología donde los DJs más grandes del mundo se encuentran con la gente del mañana. Cada año, un tema nuevo lo transforma en una maravilla arquitectónica."
+            },
+            'atmosphere': {
+                title: "La Mágica Multitud",
+                description: "Miles de almas unidas, bailando bajo las estrellas y las luces. La verdadera magia de Tomorrowland reside en la conexión global y la energía compartida de la gente."
+            },
+            'entrance': {
+                title: "El Portal a la Fantasía",
+                description: "La entrada es el primer paso hacia un mundo de ensueño. Las decoraciones impresionantes y las estructuras temáticas te transportan inmediatamente a la historia del festival."
+            },
+            'fireworks': {
+                title: "Luces en el Cielo",
+                description: "El momento culminante de cada noche. Los espectáculos de pirotecnia y láser sincronizados con la música son legendarios, iluminando el cielo de Itu en un final épico."
+            },
+            'people-of-tomorrow': {
+                title: "Amistad y Diversidad",
+                description: "Tomorrowland es un crisol de culturas. Aquí, personas de todas partes del mundo se reúnen para celebrar la paz, el amor y la música, creando la comunidad global conocida como 'People of Tomorrow'."
+            },
+            'secondary-stage': {
+                title: "Descubre Nuevos Sonidos",
+                description: "Los escenarios secundarios, como el 'Tulip Stage' o 'The Library', ofrecen géneros variados como techno, hardstyle o trance, y son perfectos para descubrir talentos emergentes en entornos más íntimos."
+            }
+        };
+
+        const cards = document.querySelectorAll('.moment-card');
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDescription = document.getElementById('modalDescription');
+        const modalClose = document.getElementById('modalClose');
+        const modalCloseButton = document.getElementById('modalCloseButton');
+        const modalContent = document.getElementById('modalContent');
+
+
+        // Función para mostrar el modal
+        function showModal(data) {
+            modalTitle.textContent = data.title;
+            modalDescription.textContent = data.description;
+            
+            // Habilitar la visibilidad y transición
+            modalOverlay.classList.remove('opacity-0', 'pointer-events-none');
+            modalContent.classList.remove('scale-95');
+            modalContent.classList.add('scale-100');
+        }
+
+        // Función para ocultar el modal
+        function hideModal() {
+            // Deshabilitar la visibilidad y transición
+            modalOverlay.classList.add('opacity-0', 'pointer-events-none');
+            modalContent.classList.add('scale-95');
+            modalContent.classList.remove('scale-100');
+        }
+
+        // Agregar evento de clic a cada tarjeta
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                const momentId = card.getAttribute('data-moment');
+                const data = momentData[momentId];
+                if (data) {
+                    showModal(data);
+                }
+            });
+        });
+
+        // Eventos para cerrar el modal
+        modalClose.addEventListener('click', hideModal);
+        modalCloseButton.addEventListener('click', hideModal);
+        
+        // Cerrar modal al hacer clic fuera del contenido
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) {
+                hideModal();
+            }
+        });
+
+        // Cerrar modal con la tecla ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modalOverlay.classList.contains('pointer-events-none')) {
+                hideModal();
+            }
+        });
+
+    </script>
+
+</body>
+</html>
